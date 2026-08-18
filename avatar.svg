@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620">
+<defs>
+ <linearGradient id="h" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4d405b"/><stop offset="1" stop-color="#78698e"/></linearGradient>
+ <linearGradient id="d" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efe5e0"/><stop offset="1" stop-color="#d5c2d9"/></linearGradient>
+</defs>
+<!-- hijab silhouette -->
+<path d="M121 314C88 246 99 126 168 70C225 23 319 28 378 82C426 126 438 202 413 280L455 444C464 478 430 513 391 523L127 523C87 508 70 474 84 436Z" fill="url(#h)"/>
+<!-- face -->
+<path d="M177 157C202 112 311 102 348 158L352 271C345 334 306 370 263 374C218 371 177 333 168 275Z" fill="#b9785f"/>
+<!-- soft face shading -->
+<path d="M184 258C195 316 226 346 263 350C303 346 329 318 341 276C327 340 298 372 261 374C219 371 185 333 174 277Z" fill="#a96855" opacity=".28"/>
+<!-- hijab front -->
+<path d="M170 155C184 105 321 89 360 158L333 183C302 149 227 148 194 186Z" fill="#594b68"/>
+<path d="M169 176C145 223 151 299 177 340L128 419C117 359 115 263 139 197Z" fill="#4b3f59"/>
+<path d="M355 172C384 232 371 325 335 365L397 427C424 334 416 239 383 184Z" fill="#655676"/>
+<!-- eyes -->
+<path d="M205 237Q224 224 243 237Q224 250 205 237M281 237Q300 224 319 237Q300 250 281 237" fill="#fff"/>
+<ellipse cx="225" cy="237" rx="7" ry="8" fill="#29232d"/><ellipse cx="299" cy="237" rx="7" ry="8" fill="#29232d"/>
+<path d="M204 218Q224 207 244 218M280 218Q301 207 320 218" fill="none" stroke="#382d35" stroke-width="7" stroke-linecap="round"/>
+<!-- nose -->
+<path d="M259 238Q248 276 260 283Q270 288 278 280" fill="none" stroke="#925d50" stroke-width="4" stroke-linecap="round"/>
+<!-- smile -->
+<path d="M238 304Q260 320 283 304" fill="none" stroke="#743f4d" stroke-width="5" stroke-linecap="round"/>
+<!-- shoulders/outfit -->
+<path d="M115 424Q160 383 206 370L263 409L319 370Q371 387 414 427L449 620H72Z" fill="url(#d)"/>
+<path d="M207 369L263 409L319 369L350 402L263 462L176 402Z" fill="#b9a6c7"/>
+<path d="M154 451L206 474M369 451L319 474" stroke="#b49dad" stroke-width="7" opacity=".55"/>
+<!-- subtle tech badge -->
+<circle cx="395" cy="540" r="25" fill="#fffaf5" stroke="#c9b7d7" stroke-width="3"/>
+<path d="M384 540h22M395 529v22" stroke="#75658f" stroke-width="3" stroke-linecap="round"/>
+</svg>

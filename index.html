@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ayesha — Computer Engineering student and software developer portfolio." />
+  <title>Ayesha | Computer Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#home">A<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta resume-btn" href="resume.pdf" download>Download CV <span>↓</span></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <h1>Computer Engineer<br><em>who builds things.</em></h1>
+        <p class="hero-text">
+          Final-year Computer Engineering student from Mumbai University,
+          interested in building useful, polished products across software,
+          data, AI and full-stack development.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View my work <span>↓</span></a>
+          <a class="btn btn-ghost" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>01</strong><span>Computer<br>Engineering</span></div>
+          <div><strong>04+</strong><span>Major<br>Projects</span></div>
+          <div><strong>∞</strong><span>Things to<br>learn</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-2">
+        <div class="orb orb-a"></div><div class="orb orb-b"></div>
+        <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div>
+        <div class="avatar-wrap">
+          <img src="avatar-illustration.jpg" alt="Illustrated avatar of Ayesha in a hijab, working at her laptop with a colour palette on the desk">
+          <div class="avatar-caption">Computer Engineer · Builder</div>
+        </div>
+        <div class="floating-tag tag-one">React + Java</div>
+        <div class="floating-tag tag-two">Python · ML</div>
+        <div class="floating-tag tag-three">PostgreSQL</div>
+      </div>
+    </section>
+
+    <section class="marquee-section">
+      <div class="marquee">
+        <span>BUILDING DIGITAL PRODUCTS</span><b>✦</b>
+        <span>COMPUTER ENGINEERING</span><b>✦</b>
+        <span>FULL-STACK DEVELOPMENT</span><b>✦</b>
+        <span>DATA & AI</span><b>✦</b>
+        <span>BUILDING DIGITAL PRODUCTS</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="about" class="section container two-col">
+      <div class="photo-card reveal">
+        <div class="photo-frame">
+          <span class="photo-sticker">HI, IT'S ME ✦</span>
+          <img src="ayesha-photo.jpg" alt="Portrait of Ayesha">
+          <div class="photo-caption">Ayesha<small>COMPUTER ENGINEERING · MUMBAI UNIVERSITY</small></div>
+        </div>
+      </div>
+      <div class="section-content reveal delay-1">
+        <div class="section-label" style="margin-bottom:18px">01 / ABOUT</div>
+        <h2>Curious by nature.<br><span>Builder by choice.</span></h2>
+        <p class="lead">
+          I'm Ayesha, a final-year Computer Engineering student at Mumbai University.
+          I enjoy turning ideas into working products — from full-stack systems and
+          dashboards to data-driven applications.
+        </p>
+        <p>
+          My projects have helped me work across frontend development, backend APIs,
+          databases, authentication, data analysis and machine learning. I'm especially
+          interested in opportunities where I can learn quickly, contribute to a team,
+          and ship software that people can actually use.
+        </p>
+        <div class="about-pills">
+          <span>Problem Solver</span><span>Fast Learner</span><span>Product Mindset</span><span>Team Player</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-label reveal">02 / SKILLS</div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">⌘</div><h3>Languages</h3>
+            <p>Java · Python · JavaScript · TypeScript · Dart · SQL</p>
+          </article>
+          <article class="skill-card reveal delay-1">
+            <div class="skill-icon">◈</div><h3>Development</h3>
+            <p>React · Vite · Spring Boot · Flask · Flutter · REST APIs</p>
+          </article>
+          <article class="skill-card reveal delay-2">
+            <div class="skill-icon">◌</div><h3>Data & AI</h3>
+            <p>NumPy · Pandas · Matplotlib · Scikit-learn · TensorFlow</p>
+          </article>
+          <article class="skill-card reveal delay-3">
+            <div class="skill-icon">◫</div><h3>Tools & Cloud</h3>
+            <p>Git · GitHub · Docker · PostgreSQL · Firebase · Render</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container projects-section">
+      <div class="section-heading reveal">
+        <div class="section-label">03 / SELECTED WORK</div>
+        <h2>Projects that <span>solve something.</span></h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project project-dark reveal">
+          <div class="project-visual eqms-visual" data-project="eqms">
+            <div class="dashboard-window"><div class="dash-bar"><span></span><span></span><span></span></div><div class="dash-grid"><i></i><i></i><i></i><i></i></div><div class="dash-chart"></div></div>
+            <span class="preview-note">Optional screenshot · replace later</span>
+          </div>
+          <div class="project-info"><div class="project-number">01</div><h3>eQMS 360</h3><p>Electronic Quality Management System with role-based access, document workflows, revision history, approvals, audit logs and reporting.</p><div class="tags"><span>React</span><span>Spring Boot</span><span>PostgreSQL</span><span>Docker</span></div><div class="project-links"><a class="project-link" href="#" aria-label="eQMS GitHub">GitHub ↗</a><a class="project-link muted" href="#">Live demo ↗</a></div></div>
+        </article>
+
+        <article class="project project-light reveal">
+          <div class="project-info"><div class="project-number">02</div><h3>EngiRoot</h3><p>A Flutter college recommendation and comparison app using CET-oriented structured data, filters, fees, placements, ratings and rankings.</p><div class="tags"><span>Flutter</span><span>Dart</span><span>JSON</span><span>Recommendation</span></div><div class="project-links"><a class="project-link muted" href="#">GitHub ↗</a><a class="project-link muted" href="#">Live demo ↗</a></div></div>
+          <div class="project-visual college-visual" data-project="engiroot"><div class="phone"><div class="phone-notch"></div><div class="phone-title">Find your college</div><div class="phone-card"></div><div class="phone-card small"></div><div class="phone-card"></div></div><span class="preview-note">Optional screenshot · replace later</span></div>
+        </article>
+
+        <article class="project project-dark reveal">
+          <div class="project-visual data-visual" data-project="superstore"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="data-label">PROFITABILITY</div><span class="preview-note">Optional screenshot · replace later</span></div>
+          <div class="project-info"><div class="project-number">03</div><h3>Superstore Profitability Analysis</h3><p>Exploratory data analysis of sales, profit, categories and regional business patterns through Python-based visualisation.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>EDA</span></div><div class="project-links"><a class="project-link muted" href="#">GitHub ↗</a></div></div>
+        </article>
+
+        <article class="project project-light reveal">
+          <div class="project-info"><div class="project-number">04</div><h3>Project Repository Portal</h3><p>A project management platform for students, faculty, guides and external examiners to manage projects, reports, progress and evaluation.</p><div class="tags"><span>Flask</span><span>Firebase</span><span>SQLite</span><span>Web App</span></div><div class="project-links"><a class="project-link muted" href="#">GitHub ↗</a></div></div>
+          <div class="project-visual repo-visual" data-project="repository"><div class="repo-stack"><span>PROJECTS</span><span>GUIDES</span><span>REVIEWS</span><span>REPORTS</span></div><span class="preview-note">Optional screenshot · replace later</span></div>
+        </article>
+
+        <article class="project project-dark reveal">
+          <div class="project-visual eqms-visual" data-project="classroom"><div class="dashboard-window"><div class="dash-bar"><span></span><span></span><span></span></div><div class="dash-grid"><i></i><i></i><i></i><i></i></div><div class="dash-chart"></div></div><span class="preview-note">Optional screenshot · replace later</span></div>
+          <div class="project-info"><div class="project-number">05</div><h3>FinGuard</h3><p>A credit risk assessment project focused on evaluating borrower risk using data-driven features and an application-oriented workflow.</p><div class="tags"><span>Python</span><span>Machine Learning</span><span>Flask</span></div><div class="project-links"><a class="project-link" href="https://github.com/en23264865-creator/finguard.git" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cert-section">
+      <div class="container">
+        <div class="section-label reveal">04 / CERTIFICATIONS</div>
+        <div class="cert-grid">
+          <article class="cert-card reveal"><div class="cert-no">CERT 01</div><h3>Python Programming</h3><p>Programming & development</p></article>
+          <article class="cert-card reveal"><div class="cert-no">CERT 02</div><h3>Generative AI</h3><p>AI tools & concepts</p></article>
+          <article class="cert-card reveal"><div class="cert-no">CERT 03</div><h3>Power BI</h3><p>Data analytics & dashboards</p></article>
+          <article class="cert-card reveal"><div class="cert-no">CERT 04</div><h3>Cyber Security</h3><p>Security fundamentals</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="experience">
+      <div class="container">
+        <div class="section-label reveal">05 / EXPERIENCE</div>
+        <div class="internship-card reveal">
+          <div><div class="section-label">INTERNSHIPS & TRAINING</div><h3>Learning by building across multiple domains.</h3></div>
+          <div class="internship-list">
+            <div class="internship-row"><strong>Vinayaka IT Solutions — Data Analysis & Machine Learning</strong><span>3 months · Python, data analysis and machine learning</span></div>
+            <div class="internship-row"><strong>EduTantra — Cyber Security</strong><span>3 months · Cybersecurity fundamentals and practical learning</span></div>
+            <div class="internship-row"><strong>IBase — Python Programming</strong><span>7 days · Python programming fundamentals and practical exercises</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-inner reveal">
+        <div class="section-label">06 / CONTACT</div>
+        <h2>Let's build something<br><em>worth talking about.</em></h2>
+        <p>Open to internships, graduate roles, collaborations and interesting projects.</p>
+        <div class="contact-actions">
+          <a class="big-link resume-btn" href="resume.pdf" download>Download my CV <span>↓</span></a>
+          <a class="big-link" href="mailto:your.email@example.com">ayeshapalekar02@gmail.com <span>↗</span></a>
+          <a class="big-link" href="https://github.com/palekarayesha" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a class="big-link" href="https://www.linkedin.com/in/ayesha-palekar-597496322/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Ayesha</span>
+    <span>Designed & built with curiosity.</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
